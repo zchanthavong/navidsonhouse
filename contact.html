@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Navidson House Contact</title>
+<meta charset="UTF-8">
+<meta name="description" content="Form to rent out Navidson House.">
+<meta name="keywords" content="House, Bed and Breakfast, BnB">
+<meta name="author" content="Zidane Chanthavong">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/house.css" rel="stylesheet">
+<script src="scripts/estimating_cost.js" defer></script>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+	<header>Navidson <span style=color:#0000FF>House</span></header>
+	</div>
+	<div class="nav">
+	<nav> 
+		<a href="index.html">Home</a><br>
+		<a href="rooms/bedrooms.html">Bedrooms</a><br>
+		<a href="rooms/otherrooms.html">Other Rooms</a><br>
+		<a href="events/haunt.html">Haunted <span style=color:#0000FF>House</span></a><br>
+		<a href="#">Contact</a><br>
+	</nav>
+	</div>
+	<div class="paragraph">
+	<main>
+		<h2>Contact Form</h2>
+		<hr>
+		<img src="images/phone.jpg" alt="An image of a phone on a desk.">
+		<p>Wish to rent out Navidson <span style=color:#0000FF>House</span>? Fill out the reservation below. All '*' is required.</p>
+		<form>
+			<label for="myName">Name*: </label>
+			<input type="text" id="myName" required>
+			<br>
+			<label for="myEmail">E-mail*: </label>
+			<input type="email" id="myEmail" required>
+			<br>
+			<label for="myStart">Start Date*: </label>
+			<input type="date" id="myStart" required>
+			<br>
+			<label for="myEnd"># of Days*: </label>
+			<input type="number" id="myEnd" required>
+			<br>
+			<label for="officeAccess">Access to Office: </label>
+			<input type="checkbox" id="officeAccess">
+			<br>
+			<label for="myTip">Optional Tip:</label>
+			<input type="number" id="myTip">
+			<br>
+			<label for="myInfo">Additional Info: </label>
+			<textarea id="myInfo" rows="1" cols="20" ></textarea>
+			<br>
+			<input type="submit" value="Submit"><input type="reset">
+		</form>
+		<p>Total Cost: <span id="totalCost"></span></p>
+		<hr>
+	</main>
+	</div>
+	<div class="aside"></div>
+	<div class="footer">
+	Copyright &copy; 2025 WebMaster 
+	<a href="mailto:zchanthavong@amarillocollege.com">Zidane Chanthavong</a>
+	</div>
+</div> 
+</body>
+</html>
