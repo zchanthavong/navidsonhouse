@@ -1,5 +1,5 @@
-const COST_PER_NIGHT = 60.00;
-const OFFICE_COST = 15.00;
+const COST_PER_NIGHT = 80.00;
+const OFFICE_COST = 20.00;
 
 window.addEventListener("load", setupForm);
 
